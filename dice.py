@@ -24,8 +24,8 @@ def dice_roll(dice_count = 1, dice_size = 6):
     for i in range(0, dice_count):
         dice_results.append(random.randint(1, dice_size))
 
+def roll_sum():
+    return sum(dice_results)
+
 dice_roll()
-print(dice_results)
-dice_results = []
-dice_roll(4,20)
-print(dice_results)
+print(roll_sum())
