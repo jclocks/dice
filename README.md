@@ -3,7 +3,7 @@ Simple dice-rolling utility. Goal of the project would be to provide a numerical
 
 Use:
 
-dice.py [-rmdog] [<Amount of dice>d<Die maximum value>]
+dice.py [-rmdog] [\<Amount of dice\>d\<Die maximum value\>]
 
 Examples:
 
